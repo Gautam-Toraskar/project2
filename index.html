@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<!-- <link rel='shortcut icon' href='assets/img/favi.ico' type='image/x-icon'/ > -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Launchpump comming soon</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+
+  <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets1/css/main.css">
+  <link href="http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Lato:100italic,100,300italic,300,400italic,400,700italic,700,900italic,900" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="assets/fonts/Calibri-Bold/styles.css">
+  <link rel="stylesheet" href="assets/fonts/BerlinSansFB-Reg/styles.css">
+
+
+  <style type="text/css">
+  .theme-logo-color{
+  	background-color: #F5D76E;
+  }
+	.logo-div{
+		max-width: 350px;
+		width: 100%;
+		height: 350px;
+		margin: auto;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+	.logo-div img{
+		max-width: 100%;
+		margin: auto;
+		display: block;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		padding: 15px;
+	}
+	footer {
+	  position: absolute;
+	  bottom: 0;
+	  width: 100%;
+	}
+	footer h5 {
+	  color: #fff;
+	  font-family: 'lato';
+	  text-align: center;
+	  margin-top: 100px;
+	  font-size: 15px;
+	}
+	footer img {
+	  width: 13px;
+	  vertical-align: baseline;
+	}
+	footer h5 a {
+	  color: #fff;
+	  text-decoration: none;
+	  -webkit-transition: all 0.3s ease-in-out;
+	  -o-transition: all 0.3s ease-in-out;
+	  transition: all 0.3s ease-in-out;
+	}
+	footer h5 a:hover {
+	  color: #777777;
+	  text-decoration: none;
+	}
+	.wrapper{
+		width: 100%;
+		position: relative;
+		height: 400px;
+		max-width: 350px;
+	}
+	.twitter-follow-btn{
+		position: absolute;
+		bottom: 0px;
+		left : 0px;
+	}
+	.twitter-tweet-btn{
+		position: absolute;
+		bottom: 0px;
+		right: 0px;
+	}
+	.loader-backdrop {
+	  position: fixed;
+	  top: 0;
+	  left: 0;
+	  bottom: 0;
+	  right: 0;
+	  background-color: #F5D76E;
+	  z-index: 5;
+	}
+	.loader-backdrop .backdrop-logo {
+	  display: block;
+	  margin: auto;
+	  width: 100%;
+	}
+	.ball-bounce{
+	  position: absolute;
+	  max-width: 303px;
+	  height: 333px;
+	  top: 0;
+	  bottom: 0;
+	  margin: auto;
+	  left: 0;
+	  right: 0;
+	  width: 100%;
+	  padding: 10px;
+	}
+	.ball {
+	  width: 50px;
+	  height: 50px;
+	  background-color: #FF5460;
+	  border-radius: 50%;
+	  margin: 200px auto 0;
+	  animation: ball 300ms cubic-bezier(0.165, 0.840, 0.440, 1.000) infinite alternate;
+	  -webkit-animation: ball 300ms cubic-bezier(0.165, 0.840, 0.440, 1.000) infinite alternate;
+	  -moz-animation: ball 300ms cubic-bezier(0.165, 0.840, 0.440, 1.000) infinite alternate;
+	  -o-animation: ball 300ms cubic-bezier(0.165, 0.840, 0.440, 1.000) infinite alternate;
+	  animation-delay: 0;
+	  -webkit-animation-delay: 0;
+	}
+	.shadow {
+	  width: 50px;
+	  height: 20px;
+	  border-radius: 50%;
+	  background-color: #000;
+	  display: block;
+	  margin: 0 auto;
+	  position: relative;
+	  top: -10px;
+	  opacity: 0.7;
+	  animation: shadow 300ms cubic-bezier(0.165, 0.840, 0.440, 1.000) infinite alternate;
+	  animation-delay: 0;
+	  -webkit-animation: shadow 300ms cubic-bezier(0.165, 0.840, 0.440, 1.000) infinite alternate;
+	  -webkit-animation-delay: 0;
+	  -moz-animation: shadow 300ms cubic-bezier(0.165, 0.840, 0.440, 1.000) infinite alternate;
+	  -moz-animation-delay: 0;
+	}
+	@keyframes ball {
+	  0% {
+	    transform: translateY(0px);
+	  }
+	  100% {
+	    transform: translateY(-120px);
+	  }
+	}
+	@-webkit-keyframes ball {
+	  0% {
+	    -webkit-transform: translateY(0px);
+	  }
+	  100% {
+	    -webkit-transform: translateY(-120px);
+	  }
+	}
+	@keyframes shadow {
+	  0% {
+	    transform: scale(.5);
+	  }
+	  100% {
+	    transform: scale(1.1);
+	    opacity: .1;
+	  }
+	}
+	@-webkit-keyframes shadow {
+	  0% {
+	    -webkit-transform: scale(.5);
+	  }
+	  100% {
+	    -webkit-transform: scale(1.1);
+	    opacity: .1;
+	  }
+	}
+	.text{
+		position: absolute;
+		top: 0;
+		margin: auto;
+		bottom: 460px;
+		height: 130px;
+		text-align: center;
+		width: 100%;
+		font-family: 'BerlinSansFB-Reg';
+		color: white;
+	}
+	.text h2{
+		margin-top: 0;
+	}
+	.text h1{
+		font-size: 50px;
+		margin-bottom: 0; 
+	}
+	@media screen and (max-width: 500px) {
+		.logo-div img{
+			width: 60%;
+		}
+		.twitter-follow-btn {
+			position: absolute;
+			left: 0px;
+			width: 140px;
+			right: 0px;
+			margin: auto;
+			bottom: 90px;
+		}
+		.twitter-tweet-btn {
+			position: absolute;
+			left: 0px;
+			width: 153px;
+			right: 0px;
+			margin: auto;
+			bottom: 45px;
+		}
+		.text{
+			bottom: 320px;
+		}
+	}
+  </style>
+</head>
+
+<body class="theme-logo-color">
+
+	<div class="loader-backdrop">
+	  <div class="ball-bounce">
+	    <div class="ball"></div>
+	    <span class="shadow"></span>
+	  </div>
+	</div>
+	
+	<div class="text">
+		<h1>Pump</h1>
+		<h2>Cooming Soon!</h2>
+	</div>
+	<div class="logo-div">
+		<img src="assets/img/pump-logo.png" alt="">
+		<div class="wrapper">
+			<div class="twitter-follow-btn">
+				<a href="https://twitter.com/launchpump" class="twitter-follow-button" data-show-count="false">Follow @launchpump</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+			</div>
+
+			<div class="twitter-tweet-btn">
+				<a href="https://twitter.com/intent/tweet?screen_name=launchpump" class="twitter-mention-button" data-related="KERKAR7">Tweet to @launchpump</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+			</div>
+		</div>
+	</div>
+	
+	<footer>
+	  <h5>Made with
+	    <img src="assets/img/heart.png" alt="heart"> in Goa. &copy; 2014 <a href="http://www.helixtech.co">Helix Tech</a> </h5>
+	</footer>
+	
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+	
+  <script>
+  	$(document).ready(function(){
+  		setTimeout(function(){
+  			$('.loader-backdrop').fadeOut("fast");
+  		},5000);
+  	});
+  </script>
+</body>
+
+</html>
